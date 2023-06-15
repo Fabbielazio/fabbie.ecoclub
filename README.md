@@ -98,8 +98,6 @@ Custom escape helpers
 By default, Eco's escape method takes a string and returns an HTML-escaped string. You can override this behavior to escape for formats other than HTML, or to bypass escaping entirely. For example,
 
 eco.render "From: <%= @address %>",
-  address: "Sam Stephenson <sstephenson@gmail.com>"
-  escape:  (string) -> string
 would return:
 
 Blocks and capturing
